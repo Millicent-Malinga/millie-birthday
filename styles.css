@@ -1,0 +1,53 @@
+.form-div {
+    background-color: white ;
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+form {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: inherit;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+body {
+    background-image: url("images/3d-render-grunge-style-interior-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input, textarea {
+    border: solid 1px rgb(243, 219, 7);
+    border-radius: 5px;
+    font-family: 'Happy Monkey', 'sans-serif';
+}
+
+img {
+    width: 35%;
+}
+
+* {
+    font-family: 'Happy Monkey', 'sans-serif';
+
+}
+
+button {
+   align-self: center;
+    width: 50%;
+
+}
